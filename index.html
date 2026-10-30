@@ -18,8 +18,8 @@
 <meta name="twitter:title" content="Shreyas S S · Civil Engineer &amp; Co-Founder, Aptimizer">
 <meta name="twitter:description" content="Shreyas S S is a final-year civil engineer and co-founder of Aptimizer, an AI-assisted planning and code-compliance system for multi-tower residential complexes. Based in Bengaluru, India.">
 <meta name="twitter:image" content="https://shreyas-ss.netlify.app/og-card.png">
-<meta name="theme-color" content="#0d0610">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g'%3E%3Cstop offset='0' stop-color='%23e6d3e0'/%3E%3Cstop offset='.4' stop-color='%23ffbfdc'/%3E%3Cstop offset='.7' stop-color='%23ff4fd8'/%3E%3Cstop offset='1' stop-color='%23ff2e97'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' fill='%230d0610'/%3E%3Crect y='56' width='64' height='8' fill='url%28%23g%29'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Impact,Arial Narrow,sans-serif' font-weight='800' font-size='34' fill='%23ff2e97'%3ESS%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#050505">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g'%3E%3Cstop offset='0' stop-color='%239aa3b3'/%3E%3Cstop offset='.4' stop-color='%23c3cad8'/%3E%3Cstop offset='.7' stop-color='%23ff4fd8'/%3E%3Cstop offset='1' stop-color='%23ff2e97'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' fill='%23050505'/%3E%3Crect y='56' width='64' height='8' fill='url%28%23g%29'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Impact,Arial Narrow,sans-serif' font-weight='800' font-size='34' fill='%23ff2e97'%3ESS%3C/text%3E%3C/svg%3E">
 <link rel="apple-touch-icon" href="avatar.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Shreyas S S","jobTitle":"Civil Engineer & Co-Founder, Aptimizer","url":"https://shreyas-ss.netlify.app/","image":"https://shreyas-ss.netlify.app/avatar.png","email":"mailto:yesitshreyas@gmail.com","telephone":"+91 72047 78542","sameAs":["https://www.linkedin.com/in/shreyas19"],"address":{"@type":"PostalAddress","addressLocality":"JP Nagar, Bengaluru","addressRegion":"Karnataka","addressCountry":"IN"},"alumniOf":{"@type":"CollegeOrUniversity","name":"Dayananda Sagar College of Engineering"},"knowsAbout":["Civil engineering","Retrieval-augmented generation","AWS","Azure","CI/CD","GitHub","GIS site analysis","FAR/FSI compliance","IS 3861","Space planning","Python","OpenCV","Computer vision","Formwork systems","Influencer marketing"],"knowsLanguage":["English","Hindi","Kannada","Marathi","French","Spanish","Korean"]}</script>
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
@@ -30,12 +30,12 @@
 <script src="vendor/three.min.js" defer></script>
 <style>
 /* Layout: a tower you build by scrolling, then a civil drawing set — Section A–A (skills), Details (projects), Schedule (experience), Issue (résumé), Handover (contact).
-   Colour: night is cyberpunk with pink as the primary (hot-pink neon on black-plum, silver ink); day is nude paper with sage structure and dusty-rose accents.
-   Each floor has its own service colour: pale pink/nude at the foundation (civil) deepening to hot pink/rose on the roof (people). */
+   Colour: night is cyberpunk: pink primary, silver secondary, black tertiary; day is nude paper with sage structure and dusty-rose accents.
+   Each floor has its own service colour: steel/nude at the foundation (civil), alternating silver and pink in the dark, up to hot pink/rose on the roof (people). */
 :root{
   color-scheme: dark;
-  --bg:#0d0610; --bg-2:#12080f; --surface:#1a0c18; --line:#3a1f36; --ink:#f1e8ef; --ink-2:#b9a6b8; --hot:#ff2e97; --struct:#5c2f52; --onfill:#0d0610;
-  --f1:#e6d3e0; --f2:#ffbfdc; --f3:#ff9ecb; --f4:#ff7ab8; --f5:#ff5c8a; --f6:#d65cff; --f7:#ff4fd8; --f8:#ff2e97;
+  --bg:#050505; --bg-2:#0a0a0c; --surface:#111114; --line:#2a2a30; --ink:#eef0f4; --ink-2:#a3a8b3; --hot:#ff2e97; --struct:#6b7080; --onfill:#050505;
+  --f1:#9aa3b3; --f2:#ffbfdc; --f3:#c3cad8; --f4:#ff7ab8; --f5:#e3e7ee; --f6:#ff4fd8; --f7:#d0d5de; --f8:#ff2e97;
   /* text-safe floor colours: equal the floor colours in dark, darkened in light to >=4.6:1 on --bg-2/--bg/--surface */
   --t1:var(--f1); --t2:var(--f2); --t3:var(--f3); --t4:var(--f4); --t5:var(--f5); --t6:var(--f6); --t7:var(--f7); --t8:var(--f8); --hot-text:var(--hot);
   --glass: color-mix(in srgb, var(--bg) 72%, transparent);
@@ -62,8 +62,8 @@
 }
 :root[data-theme="dark"]{
   color-scheme: dark;
-  --bg:#0d0610; --bg-2:#12080f; --surface:#1a0c18; --line:#3a1f36; --ink:#f1e8ef; --ink-2:#b9a6b8; --hot:#ff2e97; --struct:#5c2f52; --onfill:#0d0610;
-  --f1:#e6d3e0; --f2:#ffbfdc; --f3:#ff9ecb; --f4:#ff7ab8; --f5:#ff5c8a; --f6:#d65cff; --f7:#ff4fd8; --f8:#ff2e97;
+  --bg:#050505; --bg-2:#0a0a0c; --surface:#111114; --line:#2a2a30; --ink:#eef0f4; --ink-2:#a3a8b3; --hot:#ff2e97; --struct:#6b7080; --onfill:#050505;
+  --f1:#9aa3b3; --f2:#ffbfdc; --f3:#c3cad8; --f4:#ff7ab8; --f5:#e3e7ee; --f6:#ff4fd8; --f7:#d0d5de; --f8:#ff2e97;
 }
 *{box-sizing:border-box}
 html{background:var(--bg);scroll-behavior:smooth}
@@ -862,7 +862,7 @@ addEventListener('DOMContentLoaded', function(){
       ['Kannada · Marathi','Both at B2, upper intermediate.'],
       ['French · Spanish · Korean','French at B1, with 1st place in two French events at Christ Junior College; Spanish and Korean at A1.']]}
   ];
-  const SPEC = [0xe6d3e0,0xffbfdc,0xff9ecb,0xff7ab8,0xff5c8a,0xd65cff,0xff4fd8,0xff2e97];
+  const SPEC = [0x9aa3b3,0xffbfdc,0xc3cad8,0xff7ab8,0xe3e7ee,0xff4fd8,0xd0d5de,0xff2e97];
   const roomCode = (f,r) => 'L' + String(f+1).padStart(2,'0') + ' · R' + (r+1);
 
   /* ======================= theme ======================= */
@@ -1308,7 +1308,7 @@ addEventListener('DOMContentLoaded', function(){
   }
 
   const THEMES = {
-    dark:{ bg:0x0d0610, night:0x050206, top:0x1c0a18, topNight:0x030103, grid:0x7a1f5e, bp:0xffb8dc, ctx:0xa04a86, concrete:0xb8a8b6, glass:0x220c1c, dust:0xff9ecb, hot:0xff2e97, sky:0xf4e4ee, gnd:0x0d0610, label:'#ffb8dc' },
+    dark:{ bg:0x050505, night:0x010101, top:0x121216, topNight:0x000000, grid:0x7a1f5e, bp:0xd0d5de, ctx:0x6b7080, concrete:0xb5bac4, glass:0x16161a, dust:0xff9ecb, hot:0xff2e97, sky:0xeef0f4, gnd:0x050505, label:'#d0d5de' },
     light:{ bg:0xf3e9e1, night:0xd9c2c2, top:0xfbf5ef, topNight:0xb9a2a8, grid:0xb7c2ad, bp:0x4f6a4c, ctx:0xa99288, concrete:0xddd2c6, glass:0xeee3dc, dust:0x8d505f, hot:0xb5677a, sky:0xffffff, gnd:0xd6c6b8, label:'#4f6a4c' }
   };
   const TKEYS = ['bg','night','top','topNight','grid','bp','ctx','concrete','glass','dust','hot','sky','gnd'];
@@ -1333,9 +1333,9 @@ addEventListener('DOMContentLoaded', function(){
   renderer.setPixelRatio(PR);
   const scene = new THREE.Scene();
   scene.background = new THREE.Color();
-  scene.fog = new THREE.Fog(0x0d0610, 34, 85);
+  scene.fog = new THREE.Fog(0x050505, 34, 85);
   const camera = new THREE.PerspectiveCamera(35, 1, 0.1, 400);
-  const hemi = new THREE.HemisphereLight(0xf4e4ee, 0x0d0610, 0.95); scene.add(hemi);
+  const hemi = new THREE.HemisphereLight(0xeef0f4, 0x050505, 0.95); scene.add(hemi);
   const sun = new THREE.DirectionalLight(0xffffff, 0.85); sun.position.set(10,18,12); scene.add(sun);
   const rim = new THREE.DirectionalLight(0xe8e4f4, 0.4); rim.position.set(-14,6,-10); scene.add(rim);
   const cursorLight = new THREE.PointLight(0xff2e97, 0, 11, 2); scene.add(cursorLight);
@@ -1475,7 +1475,7 @@ addEventListener('DOMContentLoaded', function(){
     const x = Math.sin(th)*R, z = Math.cos(th)*R;
     const w = 1.6 + rnd()*3.2, d = 1.6 + rnd()*3.2, h = 1 + Math.pow(rnd(),1.5)*13;
     boxEdges(ctx, x, h/2 - .3, z, w, h, d);
-    const n = Math.floor(h*2.5), col = new THREE.Color(0xffb8dc); rnd(); // context city is neutral; rnd() kept so the seeded layout is unchanged
+    const n = Math.floor(h*2.5), col = new THREE.Color(0xd0d5de); rnd(); // context city is neutral; rnd() kept so the seeded layout is unchanged
     for (let k=0;k<n;k++){
       const side = Math.floor(rnd()*4), y = .2 + rnd()*(h-.8);
       if (side < 2) wl.push(x + (rnd()-.5)*w*.85, y, z + (side ? d/2 : -d/2) * 1.01);
@@ -1545,7 +1545,7 @@ addEventListener('DOMContentLoaded', function(){
       const k = r % 3, row = r < 3 ? 0 : 1;
       const x = (xs[k]+xs[k+1])/2, z = row === 0 ? D/4 : -D/4, y = i*H + .06;
       const col = new THREE.Color(SPEC[i]);
-      const mat = new THREE.MeshStandardMaterial({color:0x220c1c, emissive:col, emissiveIntensity:0, transparent:true, opacity:0, roughness:.3, metalness:.15, depthWrite:false});
+      const mat = new THREE.MeshStandardMaterial({color:0x16161a, emissive:col, emissiveIntensity:0, transparent:true, opacity:0, roughness:.3, metalness:.15, depthWrite:false});
       const m = new THREE.Mesh(roomGeo, mat); m.position.set(x, y, z); scene.add(m);
       const em = new THREE.LineBasicMaterial({color:col, transparent:true, opacity:0, depthWrite:false});
       const e = new THREE.LineSegments(roomEdge, em); e.position.copy(m.position); scene.add(e);
